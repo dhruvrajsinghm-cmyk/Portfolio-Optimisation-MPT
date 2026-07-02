@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project applies Portfolio Theory to construct an optimal equity portfolio using historical market data.
+This project applies Portfolio Theory to practically demonstrate the advantages of diversificaton using historical market data.
 
 The notebook downloads stock prices from Yahoo Finance, computes daily log returns, generates random portfolio allocations using Monte Carlo simulation, and visualizes the Efficient Frontier to study the relationship between portfolio risk and expected return.
 
@@ -33,12 +33,11 @@ The notebook downloads stock prices from Yahoo Finance, computes daily log retur
 
 1. Download historical stock prices
 2. Compute log returns
-3. Estimate covariance matrix
-4. Generate random portfolio weights
-5. Simulate one million portfolios
-6. Compute expected return and portfolio risk
-7. Plot the Efficient Frontier
-8. Identify portfolios with attractive risk-return characteristics
+3. Generate random portfolio weights
+4. Simulate one million portfolios
+5. Compute expected return and portfolio risk
+6. Plot the Efficient Frontier
+7. Identify portfolios with attractive risk-return characteristics
 
 ---
 
@@ -48,7 +47,6 @@ The notebook downloads stock prices from Yahoo Finance, computes daily log retur
 - Log return calculations
 - Efficient Frontier
 - Capital Market Line
-- Optimal portfolio weights
 - Diversification analysis
 
 ---
